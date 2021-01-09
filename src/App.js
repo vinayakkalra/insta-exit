@@ -5,6 +5,7 @@ import './App.css';
 import HubspotForm from 'react-hubspot-form'
 import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
+  var mailid ='mailto:connect@biconomy.io';
   return (
     <div className="App">
       <header className="App-header">
@@ -19,8 +20,8 @@ function App() {
                   </div>
                 </div>
               </div>
-              <div className="row d-flex justify-content-center">
-                <div className="col-sm-12 col-md-6 col-lg-4">
+              <div className="row d-flex justify-content-center pt-4 pb-4">
+                <div className="col-sm-12 col-md-6 col-lg-11">
                     <div className="d-flex justify-content-center">
                       {/* <ReactPlayer
                         playing
@@ -28,7 +29,9 @@ function App() {
                           {src:{video}, type: 'video/mp4'}
                         ]}
                       /> */}
-                      <ReactPlayer url='https://www.youtube.com/watch?v=UoCVi1KyF7Q' />
+                      <ReactPlayer url='https://www.youtube.com/watch?v=UoCVi1KyF7Q'
+                      width = '100%'
+                      height = '500px'/>
                     </div>
                 </div>
               </div>
@@ -37,12 +40,12 @@ function App() {
                   <h1 className="text-center sub-heading2 pt-3 text-white">Want to integrate asap ?</h1>
                 </div>
               </div>
-              <div className="row mt-3">
+              <div className="row mt-4">
                 <div className="col-sm-12 col-md-12 col-lg-12 d-flex justify-content-center">
-                  <a href="mailto:connect@biconomy.io" className="text-button">Request early access</a>
+                  <a href={mailid} className="text-button">Request early access</a>
                 </div>
               </div>
-              <div className="row mt-4">
+              <div className="row mt-5">
                 <div className="col-sm-12 col-md-12 col-lg-12 d-flex justify-content-center">
                     <h3 className="text-center pt-3 follow_us text-white">Follow Us</h3>
                 </div>
@@ -68,6 +71,7 @@ function App() {
                   <HubspotForm
                     portalId='7291319'
                     formId='08c23b16-f14b-46c0-9ae6-27255b2e66c1'
+                    cssClass = 'HubspotFormcss'
                     onSubmit={() => console.log('Submit!')}
                     onReady={(form) => console.log('Form ready!')}
                     loading={<div>Loading...</div>}

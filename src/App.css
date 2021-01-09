@@ -17,13 +17,15 @@ color: #fff;
 }
 .sub-heading{
 font-weight: normal;
-font-size: 2rem;
+font-size: 36px;
 color: #fff;
 }
 .sub-heading2{
 font-weight: normal;
-
 color: #000;
+}
+.HubspotFormcss{
+  color:#fff;
 }
 .text-button{
 padding: 8px 40px;
