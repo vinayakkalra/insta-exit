@@ -23,13 +23,13 @@ function App() {
               <div className="row d-flex justify-content-center">
                 <div className="col-sm-12 col-md-6 col-lg-4">
                     <div className="d-flex justify-content-center">
-                      <ReactPlayer
+                      {/* <ReactPlayer
                         playing
                         url={[
                           {src:{video}, type: 'video/mp4'}
                         ]}
-                      />
-                      {/* <ReactPlayer url='https://www.youtube.com/watch?v=UoCVi1KyF7Q' /> */}
+                      /> */}
+                      <ReactPlayer url='https://www.youtube.com/watch?v=UoCVi1KyF7Q' />
                     </div>
                 </div>
               </div>
