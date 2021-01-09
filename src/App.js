@@ -29,7 +29,7 @@ function App() {
                           {src:{video}, type: 'video/mp4'}
                         ]}
                       /> */}
-                      <ReactPlayer url='https://www.youtube.com/watch?v=UoCVi1KyF7Q'
+                      <ReactPlayer url='https://www.youtube.com/watch?v=aX2Cx2hiME4'
                       width = '100%'
                       height = '500px'/>
                     </div>
