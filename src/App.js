@@ -2,7 +2,6 @@ import telegram from './images/telegram.svg';
 import twitter from './images/twitter.svg';
 import ReactPlayer from 'react-player';
 import './App.css';
-import video from './videos/videos.mp4';
 import HubspotForm from 'react-hubspot-form'
 import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
