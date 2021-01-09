@@ -1,0 +1,139 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.heading{   
+/* background: rgba(0, 0, 0, 0.3); */
+padding: 20px 0px;
+}
+.main-heading{
+font-weight: 800;
+font-size: 4rem;
+color: #fff;
+}
+.sub-heading{
+font-weight: normal;
+font-size: 2rem;
+color: #fff;
+}
+.sub-heading2{
+font-weight: normal;
+
+color: #000;
+}
+.text-button{
+padding: 8px 40px;
+border: 2px solid #888;
+border-radius: 15px;
+background: rgba(0, 0, 0, 0.2);
+font-size: 20px;
+font-weight: 700;
+text-decoration: none;
+color: #fff;
+}
+.text-button:hover{
+color: #fff;
+text-decoration: none;
+}
+.follow_us{
+font-weight: 700;
+font-size: 1.8rem;
+}
+.telegram_image{
+height: 50px;
+width: 50px;   
+background-color: #fff;
+border-radius: 50%;
+cursor: pointer;
+}
+.image{    
+height: 100%;
+padding: 10px;
+}
+section
+{
+padding:4%;
+background:#7e8890;
+}
+
+.form-subscribe
+{
+max-width:600px;
+margin:0 auto
+}
+.form-subscribe .form-control
+{
+background-color:#fff;
+padding-left:24px;
+padding-right:24px;
+letter-spacing:1px;
+border:none;
+border-top-left-radius:36px;
+border-bottom-left-radius:36px
+}
+
+.form-subscribe .btn
+{
+border-top-right-radius:36px;
+border-bottom-right-radius:36px;
+background:rgba(0, 0, 0, 0.2);
+border-color:rgba(0, 0, 0, 0.2);
+color: #fff;
+font-weight: 700;
+}
+.hs-form-08c23b16-f14b-46c0-9ae6-27255b2e66c1_898e76bb-36fd-4b45-8db3-a725c37d0ad2 .hs-form-field label{
+  color: #fff;
+}
+@media only screen and (max-width: 1200px) {
+  .main-heading{
+  font-weight: 800;
+  font-size: 3rem;
+  color: #fff;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .main-heading{
+  font-size:34px;
+  }
+  .sub-heading {
+    font-size: 15px;
+  }
+  .sub-heading2 {
+    font-size: 25px;
+  } */
+  .text-button{
+    font-size:18px;
+    padding: 8px 25px;
+  }
+  .follow_us{
+    font-size: 21px;
+  }
+  .hs-form-08c23b16-f14b-46c0-9ae6-27255b2e66c1_898e76bb-36fd-4b45-8db3-a725c37d0ad2 .hs-form-field label{
+    color: #fff;
+  }
+}
+.video_style{
+border:5px solid grey;
+border-radius: 5px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color:transparent;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
