@@ -25,11 +25,11 @@ class Animation extends Component{
                   "value": 3
                 },
                 "color": {
-                  "value": "#9D00FF"
+                  "value": "#ff4da6"
                 },
                 "links": {
                   blink: false,
-                  color: "#9D00FF",
+                  color: "#ff4da6",
                   consent: false
                 },
             
