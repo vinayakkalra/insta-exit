@@ -22,7 +22,7 @@ class Animation extends Component{
                   "value": 100
                 },
                 "size": {
-                  "value": 3
+                  "value": 4
                 },
                 "color": {
                   "value": "#ff4da6"
@@ -54,8 +54,16 @@ class Animation extends Component{
                   "value": 30
                 },
                 "size": {
-                  "value": 3
-                }
+                  "value": 4
+                },
+                "color": {
+                  "value": "#ff4da6"
+                },
+                "links": {
+                  blink: false,
+                  color: "#ff4da6",
+                  consent: false
+                },
             },
             "interactivity": {
                 "events": {

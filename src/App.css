@@ -23,7 +23,7 @@ font-weight: normal;
 font-size: 36px;
 color: #fff;
 font-family: 'Dosis', sans-serif;
-text-shadow: 0 0 2px #fff, 0 0 3px #ff4da6, 0 0 2px #ff4da6, 0 0 2px #ff4da6, 0 0 1px #ff4da6, 0 0 9px #ff4da6;
+/* text-shadow: 0 0 2px #fff, 0 0 3px #ff4da6, 0 0 2px #ff4da6, 0 0 2px #ff4da6, 0 0 1px #ff4da6, 0 0 9px #ff4da6; */
 }
 .sub-heading2{
 font-weight: normal;
@@ -35,8 +35,9 @@ color: #000;
 }
 .text-button{
 padding: 8px 40px;
-border: 2px solid #888;
-border-radius: 15px;
+border: 2px solid #ff4da6;
+border-radius:30px;
+text-shadow: 0 0 2px #fff, 0 0 3px #ff4da6, 0 0 2px #ff4da6, 0 0 2px #ff4da6, 0 0 1px #ff4da6, 0 0 9px #ff4da6;   
 background: rgba(0, 0, 0, 0.2);
 font-size: 20px;
 font-weight: 700;
