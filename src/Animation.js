@@ -23,7 +23,16 @@ class Animation extends Component{
                 },
                 "size": {
                   "value": 3
-                }
+                },
+                "color": {
+                  "value": "#9D00FF"
+                },
+                "links": {
+                  blink: false,
+                  color: "#9D00FF",
+                  consent: false
+                },
+            
             },
             "interactivity": {
                 "events": {
