@@ -15,8 +15,8 @@ function App() {
               <div className="row">
                 <div className="col-lg-12 col-sm-12 col-md-12">
                   <div className="heading">
-                    <h1 className="text-center main-heading"> Instant Cross-chain Transactions</h1>
-                    <h3 className="sub-heading text-center">Enable users to instantly transfer funds between layer 1 & layer 2</h3>
+                    <h1 className="text-center main-heading text-uppercase"> Instant Cross-chain Transactions</h1>
+                    <h3 className="sub-heading text-center text-capitalize">Enable users to instantly transfer funds between layer 1 & layer 2</h3>
                   </div>
                 </div>
               </div>

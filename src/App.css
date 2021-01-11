@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&family=Lato:ital@1&display=swap');
 .App {
   text-align: center;
 }
@@ -12,16 +13,21 @@ padding: 20px 0px;
 }
 .main-heading{
 font-weight: 800;
-font-size: 4rem;
+font-size: 61px;
 color: #fff;
+font-family: 'Dosis', sans-serif;
+text-shadow: 0 0 2px #fff, 0 0 3px #ff4da6, 0 0 2px #ff4da6, 0 0 2px #ff4da6, 0 0 1px #ff4da6, 0 0 9px #ff4da6;
 }
 .sub-heading{
 font-weight: normal;
 font-size: 36px;
 color: #fff;
+font-family: 'Dosis', sans-serif;
+text-shadow: 0 0 2px #fff, 0 0 3px #ff4da6, 0 0 2px #ff4da6, 0 0 2px #ff4da6, 0 0 1px #ff4da6, 0 0 9px #ff4da6;
 }
 .sub-heading2{
 font-weight: normal;
+font-family: 'Dosis', sans-serif;
 color: #000;
 }
 .HubspotFormcss{

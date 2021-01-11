@@ -19,17 +19,17 @@ class Animation extends Component{
           params={{
             "particles": {
                 "number": {
-                    "value": 100
+                  "value": 100
                 },
                 "size": {
-                    "value": 3
+                  "value": 3
                 }
             },
             "interactivity": {
                 "events": {
                     "onhover": {
-                        "enable": true,
-                        "mode": "repulse"
+                      "enable": true,
+                      "mode": "repulse"
                     }
                 }
             }
@@ -42,17 +42,17 @@ class Animation extends Component{
           params={{
             "particles": {
                 "number": {
-                    "value": 30
+                  "value": 30
                 },
                 "size": {
-                    "value": 3
+                  "value": 3
                 }
             },
             "interactivity": {
                 "events": {
                     "onhover": {
-                        "enable": true,
-                        "mode": "repulse"
+                      "enable": true,
+                      "mode": "repulse"
                     }
                 }
             }
