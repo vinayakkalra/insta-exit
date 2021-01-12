@@ -5,7 +5,6 @@ import './App.css';
 import HubspotForm from 'react-hubspot-form'
 import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
-  var mailid ='mailto:connect@biconomy.io';
   return (
     <div className="App">
       <header className="App-header">
@@ -27,7 +26,7 @@ function App() {
               </div> */}
               <div className="row mt-4">
                 <div className="col-sm-12 col-md-12 col-lg-12 d-flex justify-content-center">
-                  <a href={mailid} className="text-button text-capitalize">Request early access</a>
+                  <a href="https://t.me/@aniketjindal" className="text-button text-capitalize">Request early access</a>
                 </div>
               </div>
               <div className="row d-flex justify-content-center pb-4" style={{paddingTop:'260px'}}>
@@ -47,8 +46,14 @@ function App() {
               </div>
               <div className="row mt-5">
                 <div className="col-sm-12 col-md-12 col-lg-12 d-flex justify-content-center">
-                    <h3 className="text-center pt-3 follow_us text-white">Follow Us</h3>
+                  <h1 className="text-center pt-3 cs text-white">Coming Soon</h1>
                 </div>
+                <div className="col-sm-12 col-md-12 col-lg-12 d-flex justify-content-center">
+                  <h6 className="text-center pt-3 pbb text-white">Powered by Biconomy</h6>
+                </div>
+                {/* <div className="col-sm-12 col-md-12 col-lg-12 d-flex justify-content-center">
+                    <h3 className="text-center pt-3 follow_us text-white">Follow Us</h3>
+                </div> */}
               </div>
               <div className="row mt-2">
                 <div className="col-sm-12 col-md-12 col-lg-12 ">
@@ -89,7 +94,7 @@ function App() {
             </div>
           </div>  
         </div>
-        <p style={{color:'gray',zIndex:'1',fontSize:'16px'}}>Developed By <a rel="noreferrer" href="https://www.quadbtech.com" target="_blank" style={{color:"cornflowerblue !important"}}>QuadBTech</a></p>
+        <p style={{color:'gray',zIndex:'1',fontSize:'16px'}}>Developed By <a rel="noreferrer" href="https://www.quadbtech.com" target="_blank" style={{color:"#9D00FF!important"}}>QuadBTech</a></p>
       </header>
     </div>
   );
