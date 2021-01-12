@@ -13,24 +13,24 @@ function App() {
           <div className="row">
             <div className="container">
               <div className="row">
-                <div className="col-lg-12 col-sm-12 col-md-12 mt-5">
+                <div className="col-lg-12 col-sm-12 col-md-12" style={{paddingTop:'110px'}}>
                   <div className="heading mt-5">
                     <h1 className="text-center main-heading text-uppercase"> Instant Cross-chain Transactions</h1>
                     <h3 className="sub-heading text-center text-capitalize">Enable users to instantly transfer funds between layer 1 & layer 2</h3>
                   </div>
                 </div>
               </div>
-              <div className="row" style={{paddingTop:'35px'}}>
+              {/* <div className="row" style={{paddingTop:'35px'}}>
                 <div className="col-sm-12 col-md-12 col-lg-12 d-flex justify-content-center">
                   <h1 className="text-center sub-heading2 pt-3 text-white">Want to integrate ASAP?</h1>
                 </div>
-              </div>
+              </div> */}
               <div className="row mt-4">
                 <div className="col-sm-12 col-md-12 col-lg-12 d-flex justify-content-center">
                   <a href={mailid} className="text-button text-capitalize">Request early access</a>
                 </div>
               </div>
-              <div className="row d-flex justify-content-center pb-4" style={{paddingTop:'220px'}}>
+              <div className="row d-flex justify-content-center pb-4" style={{paddingTop:'260px'}}>
                 <div className="col-sm-12 col-md-6 col-lg-11">
                     <div className="d-flex justify-content-center">
                       {/* <ReactPlayer
