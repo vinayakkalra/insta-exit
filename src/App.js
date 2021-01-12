@@ -1,5 +1,7 @@
 import telegram from './images/telegram.svg';
 import twitter from './images/twitter.svg';
+import discord from "./images/discord.svg";
+import globe from "./images/globe.svg";
 import ReactPlayer from 'react-player';
 import './App.css';
 import HubspotForm from 'react-hubspot-form'
@@ -45,7 +47,7 @@ function App() {
                 </div>
               </div>
               <div className="row mt-5">
-                <div className="col-sm-12 col-md-12 col-lg-12 d-flex justify-content-center">
+                <div className="col-sm-12 col-md-12 col-lg-12 text-uppercase d-flex justify-content-center">
                   <h1 className="text-center pt-3 cs text-white">Coming Soon</h1>
                 </div>
                 <div className="col-sm-12 col-md-12 col-lg-12 d-flex justify-content-center">
@@ -58,12 +60,22 @@ function App() {
               <div className="row mt-2">
                 <div className="col-sm-12 col-md-12 col-lg-12 ">
                   <div className="social d-flex justify-content-center">
-                    <div className="telegram_image">
+                    <div className="share_image">
+                      <a href="http://biconomy.io/">
+                        <img src={globe} alt="" className="image"/>  
+                      </a>
+                    </div>
+                    <div className="share_image ml-2">
                       <a href="https://t.me/biconomy">
                         <img src={telegram} alt="" className="image"/>  
                       </a>
                     </div>
-                    <div className="telegram_image ml-2">
+                    <div className="share_image ml-2">
+                      <a href="https://discord.gg/HKHxgyEExQ">
+                        <img src={discord} alt="" style={{height:'110%',marginTop:'-3px',marginLeft:'-3px'}}/>  
+                      </a>
+                    </div>
+                    <div className="share_image ml-2">
                       <a href="https://twitter.com/biconomy?s=11">
                         <img src={twitter} alt="" className="image"/>
                       </a>
