@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&family=Lato&family=Poppins&display=swap');
 .App {
   text-align: center;
   overflow: hidden;
@@ -57,10 +57,14 @@ text-decoration: none;
   text-shadow: 0 0 2px #fff, 0 0 3px #9D00FF, 0 0 2px #9D00FF, 0 0 2px #9D00FF, 0 0 1px #9D00FF, 0 0 9px #9D00FF;   
   font-family: 'Lato', sans-serif;
   font-size: xxx-large;
+  border: 1px;
+  border-radius:30px;
+  padding:6px 15px;
+  background-color: #80808040;
 }
 .pbb{
-  font-family: 'Lato', sans-serif;
-  font-size:35px;
+  font-family: 'Poppins', sans-serif;
+  font-size:30px;
 }
 .follow_us{
 font-weight: 700;
@@ -78,19 +82,16 @@ cursor: pointer;
 height: 100%;
 padding: 10px;
 }
-section
-{
+section{
 padding:4%;
 background:#7e8890;
 }
 
-.form-subscribe
-{
+.form-subscribe{
 max-width:600px;
 margin:0 auto
 }
-.form-subscribe .form-control
-{
+.form-subscribe .form-control{
 background-color:#fff;
 padding-left:24px;
 padding-right:24px;
@@ -100,8 +101,7 @@ border-top-left-radius:36px;
 border-bottom-left-radius:36px
 }
 
-.form-subscribe .btn
-{
+.form-subscribe .btn{
 border-top-right-radius:36px;
 border-bottom-right-radius:36px;
 background:rgba(0, 0, 0, 0.2);

@@ -47,8 +47,10 @@ function App() {
                 </div>
               </div>
               <div className="row mt-5">
-                <div className="col-sm-12 col-md-12 col-lg-12 text-uppercase d-flex justify-content-center">
-                  <h1 className="text-center pt-3 cs text-white">Coming Soon</h1>
+                <div className="col-sm-12 col-md-12 col-lg-12 d-flex justify-content-center">
+                  <div className="text-uppercase">
+                    <h1 className="text-center cs text-white">Coming Soon</h1>
+                  </div>
                 </div>
                 <div className="col-sm-12 col-md-12 col-lg-12 d-flex justify-content-center">
                   <h6 className="text-center pt-3 pbb text-white">Powered by Biconomy</h6>
@@ -86,8 +88,8 @@ function App() {
               <div className="d-flex justify-content-center mt-3 row">
                 <div className="col-sm-4 col-md-4 col-lg-4 mt-2">
                   <HubspotForm
-                    portalId='7291319'
-                    formId='08c23b16-f14b-46c0-9ae6-27255b2e66c1'
+                    portalId='7327864'
+                    formId='961102ec-2db1-40c7-9dde-f8215a9678a3'
                     cssClass = 'HubspotFormcss'
                     onSubmit={() => console.log('Submit!')}
                     onReady={(form) => console.log('Form ready!')}
